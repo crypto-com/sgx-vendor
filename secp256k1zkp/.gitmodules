@@ -1,0 +1,4 @@
+[submodule "depend/secp256k1"]
+	path = depend/secp256k1
+	url = https://github.com/crypto-com/secp256k1-zkp.git
+	branch = secp256k1-zkp
