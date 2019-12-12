@@ -24,7 +24,7 @@ mesalock_sgx = ["sgx_tstd"]
 features = ["num-bigint", "bit-vec", "chrono"]
 
 [dependencies]
-sgx_tstd = { rev = "v1.1.0", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "5b5e512abbbfc3030e8cb274989fb372b685b168", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 [dependencies.num-bigint]
 version = "0.2"

@@ -34,7 +34,7 @@ num-integer = { git = "https://github.com/crypto-com/sgx-vendor" }
 num-traits = { git = "https://github.com/crypto-com/sgx-vendor" }
 rustc-serialize = { version = "0.3.20", optional = true }
 serde = { version = "1", git = "https://github.com/crypto-com/sgx-vendor", optional = true }
-sgx_tstd = { rev = "v1.1.0", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "5b5e512abbbfc3030e8cb274989fb372b685b168", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
 serde_json = { version = "1" }

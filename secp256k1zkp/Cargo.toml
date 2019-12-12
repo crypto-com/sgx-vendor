@@ -36,7 +36,7 @@ musig = []
 sgx = []
 
 [target.'cfg(all(not(target_env = "sgx"), feature = "sgx"))'.dependencies]
-sgx_tstd = { rev = "v1.1.0", git = "https://github.com/baidu/rust-sgx-sdk.git" }
+sgx_tstd = { rev = "5b5e512abbbfc3030e8cb274989fb372b685b168", git = "https://github.com/baidu/rust-sgx-sdk.git" }
 
 [dev-dependencies]
 rand = "0.7"
